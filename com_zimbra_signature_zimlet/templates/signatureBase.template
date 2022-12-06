@@ -1,16 +1,35 @@
 <template id="Main">
   <div>
-    <p style="margin:3px 3px 3px 8px"">
-	  <b><font color="#06447c" face="Verdana" size="2"><$=data.name$></font></b>
-	</p>
-    <p style="margin:3px 3px 3px 8px">
-      <span style="color:rgb(128,128,128);font-size:10pt">
-        <strong><span style="font-family:Verdana,sans-serif"><$=data.occupation$></span></strong>
-      </span>
-    </p>
-    <p style="margin:4px 3px 3px 8px;color:rgb(128,128,128);font-size:10pt"><$=data.other$></p>
-    <div>
-      <img src="<$= data.image $>" alt="">
-    </div>
+    <em style="background-color: #fbfbfc;">
+      <strong><$=data.name$>
+      </strong>
+    </em>
+    <br style="background-color: #fbfbfc;">
+    <strong style="background-color: #fbfbfc;"><$=data.occupation$>
+    </strong>
+    <br style="background-color: #fbfbfc;">
+    <span style="background-color: #fbfbfc;">-
+    </span>
+    <br style="background-color: #fbfbfc;">
+    <span style="background-color: #fbfbfc;">Gaypa Srl
+    </span>
+    <br style="background-color: #fbfbfc;">
+    <span style="background-color: #fbfbfc;">Via Monte Grappa 33
+    </span>
+    <br style="background-color: #fbfbfc;">
+    <span style="background-color: #fbfbfc;">36050 Quinto Vicentino (VI) Italy
+    </span>
+    <br style="background-color: #fbfbfc;">
+    <span style="background-color: #fbfbfc;">Ph: +39 0444 584400
+    </span>
+    <br style="background-color: #fbfbfc;">
+    <span style="background-color: #fbfbfc;">Web:
+    </span>
+    <span style="background-color: #fbfbfc;">&nbsp;
+    </span>
+    <span class="Object" id="OBJ_PREFIX_DWT549_com_zimbra_url" style="color: #336699; cursor: pointer; background-color: #fbfbfc;">
+      <a href="http://www.gaypa.com/" target="_blank" style="color: #336699; text-decoration-line: none; cursor: pointer;" rel="noopener">http://www.gaypa.com
+      </a>
+    </span>
   </div>
 </template>

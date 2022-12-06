@@ -2,7 +2,7 @@
   <table cellpadding="2" cellspacing="0" border="0" width="100%">
     <tr>
       <td>
-        <b>Name:</b>
+        <b>Nome e cognome:</b>
       </td>
       <td>
         <input type="text" name="signature_name_prop" />
@@ -11,19 +11,10 @@
 
     <tr>
       <td>
-        <b>Occupation:</b>
+        <b>Ruolo:</b>
       </td>
       <td>
         <input type="text" name="signature_occupation_prop" />
-      </td>
-    </tr>
-
-    <tr>
-      <td>
-        <b>Other:</b>
-      </td>
-      <td>
-        <textarea name="signature_other_prop"></textarea>
       </td>
     </tr>
 

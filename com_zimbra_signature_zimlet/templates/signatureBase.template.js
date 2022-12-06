@@ -1,24 +1,49 @@
-AjxTemplate.register("com_zimbra_signature_zimlet.templates.signatureBase#Main", 
+AjxTemplate.register("com_zimbra_signature_zimlet.templates.signatureBase#Main",
 function(name, params, data, buffer) {
-	var _hasBuffer = Boolean(buffer);
-	data = (typeof data == "string" ? { id: data } : data) || {};
-	buffer = buffer || [];
-	var _i = buffer.length;
+  var _hasBuffer = Boolean(buffer);
+  data = (typeof data == "string" ? { id: data } : data) || {};
+  buffer = buffer || [];
+  var _i = buffer.length;
 
-	buffer[_i++] = "<div><b><p style=\"margin:3px 3px 3px 8px\"><font color=\"#06447c\" face=\"Verdana\" size=\"2\">";
-	buffer[_i++] = data.name;
-	buffer[_i++] = "</font></b></p><p style=\"margin:3px 3px 3px 8px\"><span style=\"color:rgb(128,128,128);font-size:10pt\"><strong><span style=\"font-family:Verdana,sans-serif\">";
-	buffer[_i++] = data.occupation;
-	buffer[_i++] = "</span></strong></span></p><p style=\"margin:4px 3px 3px 8px;color:rgb(128,128,128);font-size:10pt\">";
-	buffer[_i++] = data.other;
-	buffer[_i++] = "</p><div><img src=\"";
-	buffer[_i++] =  data.image ;
-	buffer[_i++] = "\" alt=\"\"></div></div>";
+  buffer[_i++] = "<div>"
+  buffer[_i++] = "<em style=\"background-color: #fbfbfc;\">"
+  buffer[_i++] = "<strong>"
+  buffer[_i++] = data.name;
+  buffer[_i++] = "</strong>"
+  buffer[_i++] = "</em>"
+  buffer[_i++] = "<br style=\"background-color: #fbfbfc;\">"
+  buffer[_i++] = "<strong style=\"background-color: #fbfbfc;\">"
+  buffer[_i++] = data.occupation
+  buffer[_i++] = "</strong>"
+  buffer[_i++] = "<br style=\"background-color: #fbfbfc;\">"
+  buffer[_i++] = "<span style=\"background-color: #fbfbfc;\">-"
+  buffer[_i++] = "</span>"
+  buffer[_i++] = "<br style=\"background-color: #fbfbfc;\">"
+  buffer[_i++] = "<span style=\"background-color: #fbfbfc;\">Gaypa Srl"
+  buffer[_i++] = "</span>"
+  buffer[_i++] = "<br style=\"background-color: #fbfbfc;\">"
+  buffer[_i++] = "<span style=\"background-color: #fbfbfc;\">Via Monte Grappa 33"
+  buffer[_i++] = "</span>"
+  buffer[_i++] = "<br style=\"background-color: #fbfbfc;\">"
+  buffer[_i++] = "<span style=\"background-color: #fbfbfc;\">36050 Quinto Vicentino (VI) Italy"
+  buffer[_i++] = "</span>"
+  buffer[_i++] = "<br style=\"background-color: #fbfbfc;\">"
+  buffer[_i++] = "<span style=\"background-color: #fbfbfc;\">Ph: +39 0444 584400"
+  buffer[_i++] = "</span>"
+  buffer[_i++] = "<br style=\"background-color: #fbfbfc;\">"
+  buffer[_i++] = "<span style=\"background-color: #fbfbfc;\">Web:"
+  buffer[_i++] = "</span>"
+  buffer[_i++] = "<span style=\"background-color: #fbfbfc;\">&nbsp;"
+  buffer[_i++] = "</span>"
+  buffer[_i++] = "<span class=\"Object\" id=\"OBJ_PREFIX_DWT549_com_zimbra_url\" style=\"color: #336699; cursor: pointer; background-color: #fbfbfc;\">"
+  buffer[_i++] = "<a href=\"http://www.gaypa.com/\" target=\"_blank\" style=\"color: #336699; text-decoration-line: none; cursor: pointer;\" rel=\"noopener\">http://www.gaypa.com</a>"
+  buffer[_i++] = "</span>"
+  buffer[_i++] = "</div>"
 
-	return _hasBuffer ? buffer.length : buffer.join("");
+  return _hasBuffer ? buffer.length : buffer.join("");
 },
 {
-	"id": "Main"
+  "id": "Main"
 }, true);
 AjxPackage.define("com_zimbra_signature_zimlet.templates.signatureBase");
 AjxTemplate.register("com_zimbra_signature_zimlet.templates.signatureBase", AjxTemplate.getTemplate("com_zimbra_signature_zimlet.templates.signatureBase#Main"), AjxTemplate.getParams("com_zimbra_signature_zimlet.templates.signatureBase#Main"));
