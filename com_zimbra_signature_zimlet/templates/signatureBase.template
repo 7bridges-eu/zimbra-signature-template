@@ -1,38 +1,40 @@
 <template id="Main">
-  <div>
-    <em style="background-color: #fbfbfc;">
-      <strong><$=data.name$>
-      </strong>
-    </em>
-    <br style="background-color: #fbfbfc;">
-    <strong style="background-color: #fbfbfc;"><$=data.occupation$>
+<div>
+  <em>
+    <strong>
+      <$=data.name$>
     </strong>
-    <br style="background-color: #fbfbfc;">
-    <span style="background-color: #fbfbfc;">-
-    </span>
-    <br style="background-color: #fbfbfc;">
-    <span style="background-color: #fbfbfc;">Gaypa Srl
-    </span>
-    <br style="background-color: #fbfbfc;">
-    <span style="background-color: #fbfbfc;">Via Monte Grappa 33
-    </span>
-    <br style="background-color: #fbfbfc;">
-    <span style="background-color: #fbfbfc;">36050 Quinto Vicentino (VI) Italy
-    </span>
-    <br style="background-color: #fbfbfc;">
-    <span style="background-color: #fbfbfc;">Ph: +39 0444 584400
-    </span>
-    <br style="background-color: #fbfbfc;">
-    <span style="background-color: #fbfbfc;">Web:
-    </span>
-    <span style="background-color: #fbfbfc;">&nbsp;
-    </span>
-    <span class="Object" id="OBJ_PREFIX_DWT549_com_zimbra_url" style="color: #336699; cursor: pointer; background-color: #fbfbfc;">
-      <a href="http://www.gaypa.com/" target="_blank" style="color: #336699; text-decoration-line: none; cursor: pointer;" rel="noopener">http://www.gaypa.com
-      </a>
-    </span>
-    <span>
-      <img src="https://raw.githubusercontent.com/7bridges-eu/zimbra-signature-template/master/images/banner-natale-2022.png" alt="Christmas 2022">
-    </span>
+  </em>
+  <br>
+    <strong>
+      <$=data.occupation$>
+  </strong>
+  <br>
+  <span>-
+  </span>
+  <br>
+  <span>Gaypa Srl
+  </span>
+  <br>
+  <span>Via Monte Grappa 33
+  </span>
+  <br>
+  <span>36050 Quinto Vicentino (VI) Italy
+  </span>
+  <br>
+  <span>Ph: +39 0444 584400
+  </span>
+  <br>
+  <span>Web:
+  </span>
+  <span>&nbsp;
+  </span>
+  <span class="Object" id="OBJ_PREFIX_DWT549_com_zimbra_url" style="color: #336699; cursor: pointer;">
+    <a href="http://www.gaypa.com/" target="_blank" style="color: #336699; text-decoration-line: none; cursor: pointer;" rel="noopener">http://www.gaypa.com
+    </a>
+  </span>
+  <div style="padding-top: 15px">
+    <img src="https://raw.githubusercontent.com/7bridges-eu/zimbra-signature-template/master/images/banner-natale-2022.png" alt="Christmas 2022">
   </div>
+</div>
 </template>
