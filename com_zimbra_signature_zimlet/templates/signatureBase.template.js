@@ -38,6 +38,9 @@ function(name, params, data, buffer) {
   buffer[_i++] = "<span class=\"Object\" id=\"OBJ_PREFIX_DWT549_com_zimbra_url\" style=\"color: #336699; cursor: pointer; background-color: #fbfbfc;\">"
   buffer[_i++] = "<a href=\"http://www.gaypa.com/\" target=\"_blank\" style=\"color: #336699; text-decoration-line: none; cursor: pointer;\" rel=\"noopener\">http://www.gaypa.com</a>"
   buffer[_i++] = "</span>"
+  buffer[_i++] = "<span>"
+  buffer[_i++] = "<img src=\"https://raw.githubusercontent.com/7bridges-eu/zimbra-signature-template/master/images/banner-natale-2022.png\" alt=\"Christmas 2022\">"
+  buffer[_i++] = "/<span>"
   buffer[_i++] = "</div>"
 
   return _hasBuffer ? buffer.length : buffer.join("");
