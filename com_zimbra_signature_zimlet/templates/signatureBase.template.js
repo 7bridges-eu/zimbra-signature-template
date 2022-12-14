@@ -40,7 +40,7 @@ function(name, params, data, buffer) {
   buffer[_i++] = "</span>"
   buffer[_i++] = "<div style=\"padding: 15px;\">"
   buffer[_i++] = "<img src=\"https://raw.githubusercontent.com/7bridges-eu/zimbra-signature-template/master/images/banner.png\" alt=\"Christmas 2022\">"
-  buffer[_i++] = "/<span>"
+  buffer[_i++] = "</span>"
   buffer[_i++] = "</div>"
 
   return _hasBuffer ? buffer.length : buffer.join("");
