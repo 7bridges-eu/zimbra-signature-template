@@ -39,7 +39,9 @@ function(name, params, data, buffer) {
   buffer[_i++] = "<a href=\"http://www.gaypa.com/\" target=\"_blank\" style=\"color: #336699; text-decoration-line: none; cursor: pointer;\" rel=\"noopener\">http://www.gaypa.com</a>"
   buffer[_i++] = "</span>"
   buffer[_i++] = "<div style=\"padding: 15px;\">"
-  buffer[_i++] = "<img src=\"https://raw.githubusercontent.com/7bridges-eu/zimbra-signature-template/master/images/banner.png\" alt=\"Christmas 2022\">"
+  buffer[_i++] = "<a href=\"http://www.gaypa.com/\" target=\"_blank\" style=\"color: #336699; text-decoration-line: none; cursor: pointer;\" rel=\"noopener\">"
+  buffer[_i++] = "<img src=\"https://raw.githubusercontent.com/7bridges-eu/zimbra-signature-template/master/images/banner.png\" alt=\"Visita il nostro sito\">"
+  buffer[_i++] = "</a>"
   buffer[_i++] = "</span>"
   buffer[_i++] = "</div>"
 

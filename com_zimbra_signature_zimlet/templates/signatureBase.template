@@ -34,7 +34,9 @@
     </a>
   </span>
   <div style="padding-top: 15px">
-    <img src="https://raw.githubusercontent.com/7bridges-eu/zimbra-signature-template/master/images/banner-natale-2022.png" alt="Christmas 2022">
+    <a href="http://www.gaypa.com/" target="_blank" style="color: #336699; text-decoration-line: none; cursor: pointer;" rel="noopener">
+      <img src="https://raw.githubusercontent.com/7bridges-eu/zimbra-signature-template/master/images/banner.png" alt="Visita il nostro sito">
+    </a>
   </div>
 </div>
 </template>
