@@ -31,12 +31,15 @@ function(name, params, data, buffer) {
   buffer[_i++] = "<span>Ph: +39 0444 584400"
   buffer[_i++] = "</span>"
   buffer[_i++] = "<br>"
-  buffer[_i++] = "<span>Web:"
+  buffer[_i++] = "<span>Sito:"
   buffer[_i++] = "</span>"
   buffer[_i++] = "<span>&nbsp;"
   buffer[_i++] = "</span>"
   buffer[_i++] = "<span class=\"Object\" id=\"OBJ_PREFIX_DWT549_com_zimbra_url\" style=\"color: #336699; cursor: pointer;\">"
-  buffer[_i++] = "<a href=\"http://www.gaypa.com/\" target=\"_blank\" style=\"color: #336699; text-decoration-line: none; cursor: pointer;\" rel=\"noopener\">http://www.gaypa.com</a>"
+  buffer[_i++] = "<a href=\"http://www.gaypa.com/\" target=\"_blank\" style=\"color: #336699; text-decoration-line: none; cursor: pointer;\" rel=\"noopener\">Sito</a> |"
+  buffer[_i++] = "</span>"
+  buffer[_i++] = "<span class=\"Object\" id=\"OBJ_PREFIX_DWT549_com_zimbra_url\" style=\"color: #336699; cursor: pointer;\">"
+  buffer[_i++] = "<a href=\"https://www.linkedin.com/company/gaypa-srl\" target=\"_blank\" style=\"color: #336699; text-decoration-line: none; cursor: pointer;\" rel=\"noopener\"> LinkedIn</a>"
   buffer[_i++] = "</span>"
   buffer[_i++] = "<div style=\"padding: 15px;\">"
   buffer[_i++] = "<a href=\"http://www.gaypa.com/\" target=\"_blank\" style=\"color: #336699; text-decoration-line: none; cursor: pointer;\" rel=\"noopener\">"
@@ -47,7 +50,7 @@ function(name, params, data, buffer) {
 
   return _hasBuffer ? buffer.length : buffer.join("");
 },
-{
+                     {
   "id": "Main"
 }, true);
 AjxPackage.define("com_zimbra_signature_zimlet.templates.signatureBase");
